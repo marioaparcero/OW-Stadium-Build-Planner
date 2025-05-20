@@ -1,5 +1,5 @@
 [[redirects]]
-    from = "https://owbuildplanner.netlify.app/*"
-    to = "https://www.owbuildplanner.com/:splat"
+    from = "https://stadiumbuild.netlify.app/*"
+    to = "https://www.stadiumbuild.com/:splat"
     status = 301
     force = true
