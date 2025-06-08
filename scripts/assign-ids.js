@@ -1,7 +1,7 @@
 /* eslint-disable */
 const fs = require('fs');
-const armoryData = require('../public/static/data/data-original.json');
-const heroData = require('../public/static/data/heroes-original.json');
+const armoryData = require('../public/static/data/data-original-es.json');
+const heroData = require('../public/static/data/heroes-original-es.json');
 
 function assignIds(data) {
   const counters = {};
@@ -9,7 +9,7 @@ function assignIds(data) {
   const result = JSON.parse(JSON.stringify(data));
 
   for (const [tabName, tabContent] of Object.entries(result.tabs)) {
-    if (tabName === 'powers') continue;
+    if (tabName === 'poderes') continue;
 
     for (const [rarity, items] of Object.entries(tabContent)) {
       if (Array.isArray(items)) {
