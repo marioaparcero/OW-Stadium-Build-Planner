@@ -1,0 +1,1151 @@
+{
+  "heroes": [
+    {
+      "name": "D.VA",
+      "type": "tank",
+      "safe_name": "dva",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 225
+        },
+        {
+          "type": "Armor",
+          "value": 325
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": [
+        {
+          "name": "Fusion Cannons",
+          "damageType": "WP"
+        },
+        {
+          "name": "Light Gun",
+          "damageType": "WP"
+        },
+        {
+          "name": "Boosters",
+          "damageType": "AP"
+        },
+        {
+          "name": "Self-Destruct",
+          "damageType": "AP"
+        },
+        {
+          "name": "Micro Missiles",
+          "damageType": "AP"
+        },
+        {
+          "name": "Call Mech",
+          "damageType": "AP"
+        }
+      ]
+    },
+    {
+      "name": "Junker Queen",
+      "type": "tank",
+      "safe_name": "jq",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 375
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Orisa",
+      "type": "tank",
+      "safe_name": "orisa",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 150
+        },
+        {
+          "type": "Armor",
+          "value": 325
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Reinhardt",
+      "type": "tank",
+      "safe_name": "rein",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 250
+        },
+        {
+          "type": "Armor",
+          "value": 300
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Zarya",
+      "type": "tank",
+      "safe_name": "zarya",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 175
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 225
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Ashe",
+      "type": "dps",
+      "safe_name": "ashe",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 250
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Cassidy",
+      "type": "dps",
+      "safe_name": "cas",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 275
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Genji",
+      "type": "dps",
+      "safe_name": "genji",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 250
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Mei",
+      "type": "dps",
+      "safe_name": "mei",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 300
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Reaper",
+      "type": "dps",
+      "safe_name": "reaper",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 300
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Soldier: 76",
+      "type": "dps",
+      "safe_name": "sold76",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 250
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Ana",
+      "type": "support",
+      "safe_name": "ana",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 250
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Juno",
+      "type": "support",
+      "safe_name": "juno",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 75
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 150
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Kiriko",
+      "type": "support",
+      "safe_name": "kiriko",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 225
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Lúcio",
+      "type": "support",
+      "safe_name": "lucio",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 225
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Mercy",
+      "type": "support",
+      "safe_name": "mercy",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 225
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "name": "Moira",
+      "type": "support",
+      "safe_name": "moira",
+      "base_stats": [
+        {
+          "type": "Health",
+          "value": 225
+        },
+        {
+          "type": "Armor",
+          "value": 0
+        },
+        {
+          "type": "Shields",
+          "value": 0
+        }
+      ],
+      "attributes": [
+        {
+          "type": "Poder de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Poder de habilidad",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de ataque",
+          "value": "0%"
+        },
+        {
+          "type": "Reducción de tiempo de reutilización",
+          "value": "0%"
+        },
+        {
+          "type": "Munición máxima",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de arma",
+          "value": "0%"
+        },
+        {
+          "type": "Robo de salud de habilidades",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de movimiento",
+          "value": "0%"
+        },
+        {
+          "type": "Velocidad de recarga",
+          "value": "0%"
+        },
+        {
+          "type": "Daño cuerpo a cuerpo",
+          "value": "0%"
+        },
+        {
+          "type": "Daño crítico",
+          "value": "0%"
+        }
+      ],
+      "abilities": []
+    }
+  ]
+}
