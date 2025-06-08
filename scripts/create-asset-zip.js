@@ -5,7 +5,7 @@ const path = require('path');
 const sharp = require('sharp');
 const glob = require('glob');
 
-const directories = ['public/static/items', 'public/static/powers', 'public/static/icons', 'public/static/heroes'];
+const directories = ['public/static/items-es', 'public/static/powers-es', 'public/static/icons', 'public/static/heroes'];
 const outputZip = 'public/static/assets.zip';
 
 async function optimizeAndZipImages() {
