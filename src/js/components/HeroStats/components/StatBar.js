@@ -33,10 +33,10 @@ const StatBar = ({ getIcon, stat = null, healthStats = null }) => {
             <p className="tooltip-content--title">
               {(() => {
                 if (healthStats) {
-                  return 'Life';
+                  return 'Vida';
                 }
                 if (['Health', 'Armor', 'Shields'].includes(stat.key)) {
-                  return 'Life';
+                  return 'Vida';
                 }
                 const foundShorthand = Object.entries(statShorthands).find(([, value]) => value === stat.key)?.[0];
                 return foundShorthand || stat.key;

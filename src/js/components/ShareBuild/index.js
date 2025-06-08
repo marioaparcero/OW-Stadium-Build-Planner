@@ -41,7 +41,7 @@ const ShareBuild = ({ character, buildName = '' }) => {
         className="col col-md-auto btn btn--primary"
         onClick={toggleOverlay}
       >
-        Share Build
+        Compartir Build
       </button>
 
       {isOpen && (
@@ -54,9 +54,9 @@ const ShareBuild = ({ character, buildName = '' }) => {
             >
               ×
             </button>
-            <h5 className="share-build--title">Share your build</h5>
+            <h5 className="share-build--title">Comparte tu build</h5>
             <p className="share-build--description">
-              Your <b>{buildText()}</b> can be accessed through this link. <b>You can also copy the link in your browser.</b>
+              Puedes acceder a tu <b>{buildText()}</b> a través de este enlace. <b>También puedes copiar el enlace en tu navegador.</b>
             </p>
             <section className="share-build--url">
               <input
@@ -71,11 +71,11 @@ const ShareBuild = ({ character, buildName = '' }) => {
                 onClick={handleCopyUrl}
                 className="btn btn--primary"
               >
-                Copy URL
+                Copiar URL
               </button>
             </section>
             <p className={`share-build--copied ${buildCopied ? 'visible' : ''}`}>
-              ✔ Build copied to clipboard!
+              ✔ ¡Build copiada al portapapeles to clipboard!
             </p>
           </div>
         </div>

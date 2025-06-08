@@ -51,7 +51,7 @@ const HeroStats = ({ data, getIcon, heroes }) => {
           className={`expand-toggle ${isExpanded ? 'expanded' : ''}`}
           onClick={() => setIsExpanded(!isExpanded)}
         >
-          <span>{isExpanded ? 'Show Less' : 'Show More'}</span>
+          <span>{isExpanded ? 'Mostrar menos' : 'Mostrar más'}</span>
           <span className="arrow" />
         </button>
       )}

@@ -55,7 +55,7 @@ const SearchBar = ({
     if (results.length === 0) {
       return (
         <div className="search-results">
-          <p className="mb-0 p-2">No items found</p>
+          <p className="mb-0 p-2">No se encontraron objetos</p>
         </div>
       );
     }
@@ -86,7 +86,7 @@ const SearchBar = ({
     <div className="col-12 col-md-auto search-bar">
       <input
         type="text"
-        placeholder="Search items or powers..."
+        placeholder="Buscar objetos o poderes..."
         value={query}
         onChange={handleSearch}
       />

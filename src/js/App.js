@@ -24,10 +24,10 @@ const MIN_ROUNDS = 0;
 const MAX_ROUNDS = 6;
 const ITEM_SLOTS = Array(6).fill(null);
 const POWER_SLOTS = [
-  { round: 'Round 1' },
-  { round: 'Round 3' },
-  { round: 'Round 5' },
-  { round: 'Round 7' },
+  { round: 'Ronda 1' },
+  { round: 'Ronda 3' },
+  { round: 'Ronda 5' },
+  { round: 'Ronda 7' },
 ];
 
 const App = () => {
@@ -206,10 +206,10 @@ const App = () => {
           <section className={`page-info ${!hideTitle ? 'show' : ''}`}>
             <h2 style={{ fontStyle: 'italic' }}>
               Overwatch 2 Stadium Build Planner
-              <button type="button" className="hide-button" onClick={() => setHideTitle(true)}>Hide this</button>
+              <button type="button" className="hide-button" onClick={() => setHideTitle(true)}>Ocultar esto</button>
             </h2>
             <p className="mt-0 mb-3">
-              Select your heroes, items, and powers, to create your perfect 7-round build! Share your builds easily and hassle-free with the share buttons below, or by copying the link in your browser.
+              Selecciona tus héroes, objetos y poderes para crear tu configuración perfecta de 7 rondas. Comparte tus configuraciones fácilmente con los botones de abajo o copiando el enlace en tu navegador.
             </p>
           </section>
           <section className="row build-section--btn-wrapper">
@@ -219,7 +219,7 @@ const App = () => {
               className="col col-md-auto btn btn--secondary"
               onClick={() => { setHeroesVisible(!heroesVisible); }}
             >
-              {heroesVisible ? 'Hide Heroes' : 'Show Heroes'}
+              {heroesVisible ? 'Ocultar Héroes' : 'Mostrar Héroes'}
             </button>
             <button
               type="button"
@@ -229,14 +229,14 @@ const App = () => {
                 setDataAndUpdateUrl(resetData);
               }}
             >
-              Reset Build
+              Reiniciar Build
             </button>
             <button
               type="button"
               className="col-12 col-md-auto btn btn--tertiary"
               onClick={generateExtremelyRandomBuild}
             >
-              Extremely Random Build
+              Build aleatoria
             </button>
           </section>
         </div>
@@ -284,7 +284,7 @@ const App = () => {
                       id="buildName"
                       name="buildName"
                       className="hero-build-title"
-                      placeholder="Untitled build"
+                      placeholder="Build sin título"
                       value={data.buildName}
                       onChange={handleBuildNameChange}
                       maxLength={50}
@@ -303,15 +303,15 @@ const App = () => {
                 checked={options.autoCarryItemsToNextRound}
                 onChange={() => setOptions({ ...options, autoCarryItemsToNextRound: !options.autoCarryItemsToNextRound })}
               />
-              Carry Items to Next Round
+              Llevar objetos a la siguiente ronda
             </label>
           </div>
           <p className="build-section--cost">
-            Build Cost: <img className="currency" src={getIcon('currency')} alt="Currency" /><span className={hasReachedCashLimits && data.round === 0 ? 'cash-exceeded' : ''}>{formatCurrency(data.buildCost)}</span>
+            Coste de la Build: <img className="currency" src={getIcon('currency')} alt="Currency" /><span className={hasReachedCashLimits && data.round === 0 ? 'cash-exceeded' : ''}>{formatCurrency(data.buildCost)}</span>
           </p>
           <section className="build-section--cash-info">
             <p className="build-section--cost-small">
-              Minimum Cash: <img className="currency currency--small" src={getIcon('currency')} alt="Currency" /><span className={hasReachedCashLimits && data.round > 0 ? 'cash-exceeded' : ''}>{formatCurrency(calculateMinimumCashPerRound(data.round))} </span>
+              Coste Mínimo: <img className="currency currency--small" src={getIcon('currency')} alt="Currency" /><span className={hasReachedCashLimits && data.round > 0 ? 'cash-exceeded' : ''}>{formatCurrency(calculateMinimumCashPerRound(data.round))} </span>
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="16" height="16" viewBox="0 0 50 50">
                   <path d="M 25 2 C 12.309295 2 2 12.309295 2 25 C 2 37.690705 12.309295 48 25 48 C 37.690705 48 48 37.690705 48 25 C 48 12.309295 37.690705 2 25 2 z M 25 4 C 36.609824 4 46 13.390176 46 25 C 46 36.609824 36.609824 46 25 46 C 13.390176 46 4 36.609824 4 25 C 4 13.390176 13.390176 4 25 4 z M 25 11 A 3 3 0 0 0 22 14 A 3 3 0 0 0 25 17 A 3 3 0 0 0 28 14 A 3 3 0 0 0 25 11 z M 21 21 L 21 23 L 22 23 L 23 23 L 23 36 L 22 36 L 21 36 L 21 38 L 22 38 L 23 38 L 27 38 L 28 38 L 29 38 L 29 36 L 28 36 L 27 36 L 27 21 L 26 21 L 22 21 L 21 21 z" />
@@ -320,20 +320,20 @@ const App = () => {
             </p>
             <div className="tooltip-container bordered bordered-side">
               <div className="tooltip-content">
-                <p className="tooltip-content--title">Minimum Cash</p>
+                <p className="tooltip-content--title">Coste Mínimo</p>
                 <p>
-                  This is the <span>BARE MINIMUM</span> amount of cash available <span>this round</span>, not factoring in other bonuses.
+                  Esta es la cantidad <span>MÍNIMA</span> de efectivo disponible <span>en esta ronda</span>, sin tener en cuenta otros bonos.
                   <br /><br />
-                  There is a guaranteed bonus of
+                  Hay un bono garantizado de
                   <br />
-                  <img className="currency currency--small" src={getIcon('currency')} alt="Currency" /><span>{formatCurrency(MVP_BONUS)}</span> if you are the <span>MVP</span> that round.
+                  <img className="currency currency--small" src={getIcon('currency')} alt="Currency" /><span>{formatCurrency(MVP_BONUS)}</span> si eres el <span> MVP </span> de esa ronda.
                 </p>
               </div>
             </div>
           </section>
           <section className="container">
             <section className="row">
-              <p className="col-12 col-md text-align-center"><b>Powers</b></p>
+              <p className="col-12 col-md text-align-center"><b>Poderes</b></p>
             </section>
             <section className="row">
               {POWER_SLOTS.map((slot, index) => {
@@ -361,7 +361,7 @@ const App = () => {
             </section>
 
             <section className="row mt-3">
-              <p className="col text-align-center"><b>Items</b></p>
+              <p className="col text-align-center"><b>Objetos</b></p>
             </section>
             <section className="row justify-content-center">
               {ITEM_SLOTS.map((_, index) => {
@@ -384,7 +384,7 @@ const App = () => {
                       <div className="tooltip-container bordered bordered-side">
                         <div className="tooltip-content">
                           <p className="tooltip-content--title">{item.name}</p>
-                          {item.character && <p className="tooltip-content--subtitle">HERO ITEM</p>}
+                          {item.character && <p className="tooltip-content--subtitle">OBJETO DEL HÉROE</p>}
                           <hr />
                           <ul>
                             {item.attributes.map((attr, index) => (
@@ -406,7 +406,7 @@ const App = () => {
               })}
             </section>
             <section className="row mt-3">
-              <p className="col text-align-center"><b>Stats</b></p>
+              <p className="col text-align-center"><b>Estadísticas</b></p>
               <HeroStats data={data} getIcon={getIcon} heroes={availableHeroes} />
             </section>
           </section>
@@ -415,8 +415,8 @@ const App = () => {
           {armoryData && <ItemShop data={armoryData} getIcon={getIcon} context={data} contextCallback={handleClick} />}
         </div>
       </div>
-      <h6 style={{ fontStyle: 'italic', margin: '16px 0' }}>Made by Dominik Hauerstein - <a href="https://github.com/legovader09/">GitHub</a> - <Changelog /></h6>
-      <p className="mb-3 text-small">All graphic assets belong to <b>Blizzard Entertainment</b>. All rights reserved.</p>
+      <h6 style={{ fontStyle: 'italic', margin: '16px 0' }}>Made by Dominik Hauerstein - <a href="https://github.com/legovader09/">GitHub | Traducido al español por OWGalaxy</a> - <Changelog /></h6>
+      <p className="mb-3 text-small">Todos los activos gráficos pertenecen a <b>Blizzard Entertainment</b>. Reservados todos los derechos.</p>
     </div>
   );
 };

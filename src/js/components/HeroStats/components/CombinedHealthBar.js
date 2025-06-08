@@ -13,7 +13,7 @@ const CombinedHealthBar = ({ getIcon, stats }) => {
 
   return (
     <>
-      <img src={getIcon('stat_hp')} height={24} alt="Life" />
+      <img src={getIcon('stat_hp')} height={24} alt="Vida" />
       <div className="stat-bar combined-bar">
         <div
           className="bar-segment health"

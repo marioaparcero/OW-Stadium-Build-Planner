@@ -11,7 +11,7 @@ import SearchBar from './components/SearchBar';
 const ItemShop = ({
   data, getIcon, context, contextCallback,
 }) => {
-  const [activeTab, setActiveTab] = useState('weapon');
+  const [activeTab, setActiveTab] = useState('arma');
   const [highlightedItem, setHighlightedItem] = useState(null);
   const isSearchResultTab = useRef(false);
 
